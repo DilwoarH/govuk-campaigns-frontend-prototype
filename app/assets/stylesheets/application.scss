@@ -20,7 +20,11 @@ body {
   margin: 0;
 }
 
-.govuk-header__container {
+.govuk-header__container, .govuk-header {
   border-bottom: none;
   margin-bottom: 0;
+}
+
+.govuk-body--inverse {
+  color: #ffffff;
 }
