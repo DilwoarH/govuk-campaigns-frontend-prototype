@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+
+@import 'govuk_publishing_components/all_components';
+
+body {
+  margin: 0;
+}
+
+.govuk-header__container {
+  border-bottom: none;
+  margin-bottom: 0;
+}
